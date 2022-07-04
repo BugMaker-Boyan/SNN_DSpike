@@ -3,7 +3,6 @@ import math
 import torch
 from spikingjelly.activation_based.surrogate import SurrogateFunctionBase, heaviside,\
     tab4_str, curly_bracket_l, curly_bracket_r
-from spikingjelly.activation_based import neuron, functional, surrogate
 
 
 @torch.jit.script
